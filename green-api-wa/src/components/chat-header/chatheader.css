@@ -1,0 +1,15 @@
+.chat-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: var(--main-second-color);
+}
