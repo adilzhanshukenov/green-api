@@ -1,10 +1,14 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import Login from "./pages/registration/Login";
 import ChatPage from "./pages/chat-page/ChatPage";
 import MainLayout from "./layouts/main-layout/MainLayout";
 import AuthLayout from "./layouts/auth-layout/AuthLayout";
 
 const routes = createBrowserRouter([
+  {
+    path: "/",
+    element: <Navigate to="/auth/login" />, // Redirect to login page
+  },
   {
     path: "/",
     element: <MainLayout />,

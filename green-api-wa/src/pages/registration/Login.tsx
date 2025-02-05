@@ -38,7 +38,9 @@ const Login: React.FC = () => {
             onChange={(e) => setIApiTokenInstance(e.target.value)}
           />
         </div>
-        <button type="submit">chat</button>
+        <button style={{ width: "180px" }} type="submit">
+          chat
+        </button>
       </form>
     </div>
   );
