@@ -6,7 +6,7 @@ API_URL = accountStore.apiUrl;
 
 const axiosInstance = axios.create({
   baseURL: API_URL,
-  timeout: 10000, 
+  timeout: 3000, 
   headers: {
     "Content-Type": "application/json",
   },
