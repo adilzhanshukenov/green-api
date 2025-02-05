@@ -5,7 +5,6 @@
 
   color-scheme: light dark;
   color: rgb(255, 255, 255);
-  background-color: #727D73;
 
   --main-back-color: #727D73;
   --main-second-color: #AAB99A;
@@ -33,6 +32,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #727D73;
 }
 
 h1 {

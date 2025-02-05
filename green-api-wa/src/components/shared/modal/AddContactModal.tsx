@@ -51,6 +51,7 @@ const AddContactModal: React.FC<ModalProps> = observer(
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="John Doe"
+                required
               />
             </div>
             <div className="input-set">
@@ -60,9 +61,10 @@ const AddContactModal: React.FC<ModalProps> = observer(
                 minLength={11}
                 type="number"
                 name="number"
-                placeholder="7751238514"
+                placeholder="77751238514"
                 value={formData.number}
                 onChange={handleChange}
+                required
               />
             </div>
 
